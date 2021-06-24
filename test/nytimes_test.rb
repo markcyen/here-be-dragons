@@ -31,7 +31,6 @@ class NytimesTest < Minitest::Test
       result[:subsection] == "Politics"
     end
 
-
     assert result.is_a? (Array)
     assert_equal 6, result.count
     assert_equal "Congressional G.O.P. Agenda Quietly Falls Into Place Even as Trump Steals the Spotlight",
